@@ -9,8 +9,8 @@
 <br/>
 
 > **Location:** Indonesia  
-> **Focus:** Web Engineering, Pentesting, Machine Learning  
-> **Currently Learning:** Next.js, Cyber Security & Hugging Face Models  
+> **Focus:** Software Engineering, Web Development & Cybersecurity  
+> **Currently Learning:** Programming & English  
 > **Status:** Open to Collaborations & Learning Opportunities  
 
 </div>
@@ -72,16 +72,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
-
-### GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=mrizalbasri&theme=dark&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=58a6ff&sideNums=58a6ff&dates=c9d1d9&hide_border=true" alt="GitHub Streak" />
-
-</div>
 
 <br/>
 
