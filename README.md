@@ -1,20 +1,17 @@
 <div align="center">
 
-```text
-  __  __   ____   _____ _____    _    _       ____    _    ____  ____  ___ 
- |  \/  | |  _ \ |_   _|_  / \  / \  | |     | __ )  / \  / ___||  _ \|_ _|
- | |\/| | | |_) |  | |  / / / _ \ | |     |  _ \ / _ \ \___ \| |_) || | 
- | |  | | |  _ <   | | / /_/ ___ \| |___  | |_) / ___ \ ___) |  _ < | | 
- |_|  |_| |_| \_\  |_|/___/_/   \_\_____| |____/_/   \_\____/|_| \_\___|
+# M. Rizal Basri
 
-+-------------------------------------------------------------------------+
-|  ROLE       : Informatics Student @ President University                |
-|  LOCATION   : Indonesia                                                 |
-|  FOCUS      : Full-Stack Web Dev | Cybersecurity & Net | AI & ML        |
-|  LEARNING   : Pentesting | Next.js | Hugging Face Models                |
-|  STATUS     : Open to Collaborations & Learning Opportunities           |
-+-------------------------------------------------------------------------+
-```
+### Informatics Student at President University
+
+*Full-Stack Web Development &middot; Cybersecurity & Networking &middot; Artificial Intelligence*
+
+<br/>
+
+> **Location:** Indonesia  
+> **Focus:** Web Engineering, Pentesting, Machine Learning  
+> **Currently Learning:** Next.js, Cyber Security & Hugging Face Models  
+> **Status:** Open to Collaborations & Learning Opportunities  
 
 </div>
 
@@ -78,16 +75,11 @@
 
 <br/>
 
-### Most Used Languages & GitHub Stats
+### GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrizalbasri&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Most Used Languages" />
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mrizalbasri&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
-
-<br/><br/>
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=mrizalbasri&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=mrizalbasri&theme=dark&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=58a6ff&sideNums=58a6ff&dates=c9d1d9&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
