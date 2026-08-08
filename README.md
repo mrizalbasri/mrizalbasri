@@ -9,7 +9,7 @@
 <br/>
 
 > **Location:** Indonesia  
-> **Focus:** Software Engineering, Web Development & Cybersecurity  
+> **Focus:** Artificial intelligence, Software Engineering, Web Development & Cybersecurity  
 > **Currently Learning:** Programming   
 > **Status:** Open to Collaborations & Learning Opportunities  
 
