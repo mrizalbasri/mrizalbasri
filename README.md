@@ -49,7 +49,7 @@
       <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" />
     </td>
     <td width="50%" valign="top">
-      <h4>AI & Data Science</h4>
+      <h4>Artificial intelligence</h4>
       <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
       <img src="https://img.shields.io/badge/scikit--learn-F79A3E?style=flat-square&logo=scikit-learn&logoColor=white" />
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
