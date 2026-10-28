@@ -1,0 +1,42 @@
+name: Update profile metrics
+
+on:
+  schedule:
+    - cron: '20 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-metrics.mjs
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Generate metrics
+        run: node scripts/generate-metrics.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Save updated cards
+        run: |
+          git add assets/github-metrics-light.svg assets/github-metrics-dark.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(profile): refresh GitHub metrics'
+          git push origin HEAD:main
