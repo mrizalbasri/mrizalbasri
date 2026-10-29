@@ -2,8 +2,6 @@
 
 # M. Rizal Basri
 
-Informatics student at President University
-
 [Open Source Contributions](#open-source-contributions) · [Tech Stack](#tech-stack--tools) · [Activity](#github-activity)
 
 </div>
@@ -14,12 +12,10 @@ I enjoy building web applications and contributing to open source. I'm also lear
 
 ### Open Source Contributions
 
-| Project | Contribution | Pull request |
-| :--- | :--- | :--- |
-| [Freesets](https://github.com/cosmoart/Freesets) | Fixed search matching for pasted queries containing nonbreaking spaces and other whitespace; added regression tests. | [#221 · Merged](https://github.com/cosmoart/Freesets/pull/221) |
-| [Baby UI](https://github.com/kanakkholwal/baby-ui) | Fixed CLI undo/redo to restore pnpm lockfiles alongside package manifests; added regression tests. | [#5 · Merged](https://github.com/kanakkholwal/baby-ui/pull/5) |
-
-[More contributions →](https://github.com/pulls?q=is%3Apr+author%3Amrizalbasri+archived%3Afalse+-user%3Amrizalbasri)
+| Project | Description |
+| :--- | :--- |
+| [Freesets](https://github.com/cosmoart/Freesets) | A collection of free resources, including icons, images, illustrations, components, and libraries. |
+| [Baby UI](https://github.com/kanakkholwal/baby-ui) | Animated, accessible, and customizable UI components for React and Svelte. |
 
 ### Tech Stack & Tools
 
@@ -89,7 +85,7 @@ Technologies I use and explore across projects and coursework.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/github-metrics-light.svg">
-  <img alt="GitHub activity over the past year and top primary languages in public repositories" src="assets/github-metrics-light.svg" width="760">
+  <img alt="GitHub activity over the past year and top primary languages across public and private repositories" src="assets/github-metrics-light.svg" width="760">
 </picture>
 
 ### Contribution Graph
