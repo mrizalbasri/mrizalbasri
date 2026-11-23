@@ -1,21 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 246" width="760" height="246" role="img" aria-labelledby="title desc">
   <title id="title">GitHub activity and languages for mrizalbasri</title>
   <desc id="desc">Activity over the past year: 3,006 contributions, 1,274 commits, 1,024 pull requests. Selected primary languages found in owned, non-fork repositories accessible to the metrics token, including public and private repositories: TypeScript, Python, JavaScript, PHP, Svelte, Go. Updated 2026-11-23 UTC.</desc>
-  <rect x="0.5" y="0.5" width="759" height="245" rx="12" fill="#0d1117" stroke="#3d444d"/>
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#f0f6fc">
-    <text x="28" y="35" font-size="17" font-weight="600">GitHub at a glance</text>
-    <text x="28" y="58" font-size="12" fill="#9198a1">Activity over the past year</text>
-    <text x="28" y="102" font-size="28" font-weight="600" fill="#58a6ff">3,006</text><text x="28" y="125" font-size="13" fill="#9198a1">Contributions</text>
-    <text x="273" y="102" font-size="28" font-weight="600" fill="#58a6ff">1,274</text><text x="273" y="125" font-size="13" fill="#9198a1">Commits</text>
-    <text x="518" y="102" font-size="28" font-weight="600" fill="#58a6ff">1,024</text><text x="518" y="125" font-size="13" fill="#9198a1">Pull requests</text>
-    <path d="M28 147H732" stroke="#3d444d"/>
-    <text x="28" y="174" font-size="12" fill="#9198a1">Selected languages · public and private repositories, excluding forks</text>
-    <circle cx="33" cy="198" r="5" fill="#3178c6"/><text x="45" y="202" font-size="12">TypeScript</text>
-    <circle cx="150" cy="198" r="5" fill="#3572A5"/><text x="162" y="202" font-size="12">Python</text>
-    <circle cx="267" cy="198" r="5" fill="#f1e05a"/><text x="279" y="202" font-size="12">JavaScript</text>
-    <circle cx="384" cy="198" r="5" fill="#4F5D95"/><text x="396" y="202" font-size="12">PHP</text>
-    <circle cx="501" cy="198" r="5" fill="#ff3e00"/><text x="513" y="202" font-size="12">Svelte</text>
-    <circle cx="618" cy="198" r="5" fill="#00ADD8"/><text x="630" y="202" font-size="12">Go</text>
-    <text x="28" y="229" font-size="11" fill="#9198a1">Updated 2026-11-23 UTC</text>
+  <rect x="0.5" y="0.5" width="759" height="245" rx="14" fill="#0b0c14" stroke="#2d2647"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#f5f5f9">
+    <text x="28" y="36" font-size="16" font-weight="700" letter-spacing="0.2">GitHub at a glance</text>
+    <text x="732" y="35" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8d93b3">Updated 2026-11-23 UTC</text>
+    <text x="28" y="56" font-size="12" fill="#8d93b3">Activity over the past year</text>
+    <rect x="28" y="72" width="224" height="68" rx="10" fill="#121322" stroke="#231f3a"/>
+    <text x="46" y="106" font-size="27" font-weight="700" fill="#a78bfa">3,006</text>
+    <text x="46" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8d93b3">Contributions</text>
+    <rect x="268" y="72" width="224" height="68" rx="10" fill="#121322" stroke="#231f3a"/>
+    <text x="286" y="106" font-size="27" font-weight="700" fill="#a78bfa">1,274</text>
+    <text x="286" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8d93b3">Commits</text>
+    <rect x="508" y="72" width="224" height="68" rx="10" fill="#121322" stroke="#231f3a"/>
+    <text x="526" y="106" font-size="27" font-weight="700" fill="#a78bfa">1,024</text>
+    <text x="526" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8d93b3">Pull requests</text>
+    <path d="M28 160H732" stroke="#231f3a"/>
+    <text x="28" y="185" font-size="12" fill="#8d93b3">Selected languages · public and private repositories, excluding forks</text>
+    <circle cx="33" cy="212" r="5" fill="#3178c6"/><text x="45" y="216" font-size="12.5" font-weight="500">TypeScript</text>
+    <circle cx="150" cy="212" r="5" fill="#3572A5"/><text x="162" y="216" font-size="12.5" font-weight="500">Python</text>
+    <circle cx="267" cy="212" r="5" fill="#f1e05a"/><text x="279" y="216" font-size="12.5" font-weight="500">JavaScript</text>
+    <circle cx="384" cy="212" r="5" fill="#4F5D95"/><text x="396" y="216" font-size="12.5" font-weight="500">PHP</text>
+    <circle cx="501" cy="212" r="5" fill="#ff3e00"/><text x="513" y="216" font-size="12.5" font-weight="500">Svelte</text>
+    <circle cx="618" cy="212" r="5" fill="#00ADD8"/><text x="630" y="216" font-size="12.5" font-weight="500">Go</text>
   </g>
 </svg>

@@ -15,16 +15,15 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
-      - name: generate contribution graph
-        uses: platane/snk/svg-only@v3
+      - name: generate tetris contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+          games: "tetris"
+          hide_month_labels: "false"
 
       - name: push contribution graph to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

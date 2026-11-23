@@ -111,9 +111,9 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake.svg">
-  <img alt="Contribution graph" src="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/tetris-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/tetris-contribution-graph.svg">
+  <img alt="Tetris contribution graph" src="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/tetris-contribution-graph.svg">
 </picture>
 
 </div>
