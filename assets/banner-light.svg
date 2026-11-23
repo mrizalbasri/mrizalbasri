@@ -59,12 +59,6 @@
       font-size: 14.5px;
       fill: #1e293b;
     }
-    .stack {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 12.5px;
-      fill: #5b6380;
-      letter-spacing: 0.4px;
-    }
 
     @media (prefers-reduced-motion: reduce) {
       .d-l-slow, .d-r-slow, .d-l-med, .d-r-med, .d-l-fast {
@@ -138,11 +132,10 @@
 
     <!-- Clean solid foreground typography -->
     <g text-anchor="middle">
-      <text x="450" y="56" class="kicker">MRIZALBASRI</text>
-      <text x="450" y="114" class="name">M. RIZAL BASRI</text>
-      <rect x="330" y="132" width="240" height="2" rx="1" fill="#7c3aed" opacity="0.85"/>
-      <text x="450" y="164" class="role">Full-Stack Developer  ·  AI Engineer  ·  Security Enthusiast</text>
-      <text x="450" y="194" class="stack">SvelteKit  ·  FastAPI  ·  Go  ·  PostgreSQL  ·  LangGraph</text>
+      <text x="450" y="72" class="kicker">MRIZALBASRI</text>
+      <text x="450" y="126" class="name">M. RIZAL BASRI</text>
+      <rect x="330" y="144" width="240" height="2" rx="1" fill="#7c3aed" opacity="0.85"/>
+      <text x="450" y="174" class="role">Full-Stack Developer  ·  AI Engineer  ·  Security Enthusiast</text>
     </g>
   </g>
 
