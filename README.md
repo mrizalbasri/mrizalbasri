@@ -1,6 +1,10 @@
 <div align="center">
 
-<img alt="M. Rizal Basri: Full-Stack Developer, AI Engineer, Security Enthusiast" src="assets/banner.svg" width="900">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="M. Rizal Basri: Full-Stack Developer, AI Engineer, Security Enthusiast" src="assets/banner-dark.svg" width="900">
+</picture>
 
 <br/>
 

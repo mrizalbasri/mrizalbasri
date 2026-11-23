@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-labelledby="title desc">
+  <title id="title">M. Rizal Basri — Full-Stack Developer, AI Engineer, Security Enthusiast</title>
+  <desc id="desc">Animated dark numeric-background profile banner for M. Rizal Basri with subtle violet accents.</desc>
+
+  <defs>
+    <clipPath id="frame">
+      <rect x="0.5" y="0.5" width="899" height="239" rx="14"/>
+    </clipPath>
+
+    <radialGradient id="vignette" cx="50%" cy="50%" r="54%">
+      <stop offset="0%" stop-color="#0b0c14" stop-opacity="0.94"/>
+      <stop offset="56%" stop-color="#0b0c14" stop-opacity="0.72"/>
+      <stop offset="86%" stop-color="#0b0c14" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0b0c14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .ascii {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 1.4px;
+    }
+    .muted { fill: #636a8a; opacity: 0.36; }
+    .dim { fill: #484e69; opacity: 0.30; }
+    .violet { fill: #9b6dff; opacity: 0.36; }
+    .lav { fill: #b794ff; opacity: 0.26; }
+
+    @keyframes driftL {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-900px); }
+    }
+    @keyframes driftR {
+      from { transform: translateX(-900px); }
+      to { transform: translateX(0px); }
+    }
+
+    .d-l-slow { animation: driftL 46s linear infinite; }
+    .d-r-slow { animation: driftR 52s linear infinite; }
+    .d-l-med  { animation: driftL 34s linear infinite; }
+    .d-r-med  { animation: driftR 38s linear infinite; }
+    .d-l-fast { animation: driftL 28s linear infinite; }
+
+    .kicker {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      letter-spacing: 3px;
+      fill: #a78bfa;
+    }
+    .name {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      fill: #f5f5f9;
+    }
+    .role {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 14.5px;
+      fill: #d8dcef;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .d-l-slow, .d-r-slow, .d-l-med, .d-r-med, .d-l-fast {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <!-- Solid obsidian canvas -->
+    <rect width="900" height="240" fill="#0b0c14"/>
+
+    <!-- Seamless animated numeric background -->
+    <g class="ascii" xml:space="preserve">
+      <g class="d-l-slow muted">
+        <text x="0" y="21" textLength="890" lengthAdjust="spacing">01 10 00 11 01 00 10 11 00 01 11 10 01 00 10 01 11 00 10 01 00 11 01 10 00 11 01 00 10 11 01</text>
+        <text x="900" y="21" textLength="890" lengthAdjust="spacing">01 10 00 11 01 00 10 11 00 01 11 10 01 00 10 01 11 00 10 01 00 11 01 10 00 11 01 00 10 11 01</text>
+      </g>
+      <g class="d-r-med violet">
+        <text x="0" y="42" textLength="890" lengthAdjust="spacing">4 0 8 1 9 2 7 0 5 3 1 6 8 4 0 2 9 7 1 5 3 8 0 6 4 2 9 1 7 5 3 8 0 4 6 2 9 1 7 3 5 0 8 4 2 6</text>
+        <text x="900" y="42" textLength="890" lengthAdjust="spacing">4 0 8 1 9 2 7 0 5 3 1 6 8 4 0 2 9 7 1 5 3 8 0 6 4 2 9 1 7 5 3 8 0 4 6 2 9 1 7 3 5 0 8 4 2 6</text>
+      </g>
+      <g class="d-l-med dim">
+        <text x="0" y="63" textLength="890" lengthAdjust="spacing">1001 0110 1100 0011 1010 0101 0110 1001 0011 1100 0101 1010 1001 0110 1100 0011 1010 0101 01</text>
+        <text x="900" y="63" textLength="890" lengthAdjust="spacing">1001 0110 1100 0011 1010 0101 0110 1001 0011 1100 0101 1010 1001 0110 1100 0011 1010 0101 01</text>
+      </g>
+      <g class="d-r-slow muted">
+        <text x="0" y="84" textLength="890" lengthAdjust="spacing">72 19 04 83 56 20 91 47 38 65 10 29 84 73 05 62 18 49 30 75 26 81 94 03 57 42 68 15 90 34 71</text>
+        <text x="900" y="84" textLength="890" lengthAdjust="spacing">72 19 04 83 56 20 91 47 38 65 10 29 84 73 05 62 18 49 30 75 26 81 94 03 57 42 68 15 90 34 71</text>
+      </g>
+      <g class="d-l-fast lav">
+        <text x="0" y="105" textLength="890" lengthAdjust="spacing">0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0</text>
+        <text x="900" y="105" textLength="890" lengthAdjust="spacing">0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0</text>
+      </g>
+      <g class="d-r-med dim">
+        <text x="0" y="126" textLength="890" lengthAdjust="spacing">314 159 265 358 979 323 846 264 338 327 950 288 419 716 939 937 510 582 097 494 459 230 781</text>
+        <text x="900" y="126" textLength="890" lengthAdjust="spacing">314 159 265 358 979 323 846 264 338 327 950 288 419 716 939 937 510 582 097 494 459 230 781</text>
+      </g>
+      <g class="d-l-slow muted">
+        <text x="0" y="147" textLength="890" lengthAdjust="spacing">11 00 10 01 11 01 00 10 01 11 00 10 11 01 00 10 01 11 10 00 01 10 11 00 01 10 00 11 01 10 00</text>
+        <text x="900" y="147" textLength="890" lengthAdjust="spacing">11 00 10 01 11 01 00 10 01 11 00 10 11 01 00 10 01 11 10 00 01 10 11 00 01 10 00 11 01 10 00</text>
+      </g>
+      <g class="d-r-slow violet">
+        <text x="0" y="168" textLength="890" lengthAdjust="spacing">80 24 61 93 07 52 14 86 39 70 45 18 63 29 04 71 58 92 36 10 84 47 25 69 03 81 54 27 96 13 40</text>
+        <text x="900" y="168" textLength="890" lengthAdjust="spacing">80 24 61 93 07 52 14 86 39 70 45 18 63 29 04 71 58 92 36 10 84 47 25 69 03 81 54 27 96 13 40</text>
+      </g>
+      <g class="d-l-med dim">
+        <text x="0" y="189" textLength="890" lengthAdjust="spacing">0101 1010 0011 1100 0110 1001 1100 0011 1010 0101 1001 0110 0011 1100 0101 1010 0110 1001 10</text>
+        <text x="900" y="189" textLength="890" lengthAdjust="spacing">0101 1010 0011 1100 0110 1001 1100 0011 1010 0101 1001 0110 0011 1100 0101 1010 0110 1001 10</text>
+      </g>
+      <g class="d-r-med muted">
+        <text x="0" y="210" textLength="890" lengthAdjust="spacing">9 5 2 0 7 4 1 8 6 3 0 9 5 2 7 4 1 8 3 6 0 2 9 5 4 7 1 8 6 3 9 0 5 2 4 7 1 8 3 6 9 0 2 5 7 4</text>
+        <text x="900" y="210" textLength="890" lengthAdjust="spacing">9 5 2 0 7 4 1 8 6 3 0 9 5 2 7 4 1 8 3 6 0 2 9 5 4 7 1 8 6 3 9 0 5 2 4 7 1 8 3 6 9 0 2 5 7 4</text>
+      </g>
+      <g class="d-l-fast lav">
+        <text x="0" y="231" textLength="890" lengthAdjust="spacing">00 01 10 11 01 10 00 11 10 01 00 11 01 00 10 11 00 01 11 10 01 00 11 10 00 01 10 11 01 00 10</text>
+        <text x="900" y="231" textLength="890" lengthAdjust="spacing">00 01 10 11 01 10 00 11 10 01 00 11 01 00 10 11 00 01 11 10 01 00 11 10 00 01 10 11 01 00 10</text>
+      </g>
+    </g>
+
+    <!-- Soft center readability veil -->
+    <ellipse cx="450" cy="120" rx="355" ry="102" fill="url(#vignette)"/>
+
+    <!-- Minimal corner brackets -->
+    <g stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.45" fill="none">
+      <path d="M18 32 V18 H32"/>
+      <path d="M882 32 V18 H868"/>
+      <path d="M18 208 V222 H32"/>
+      <path d="M882 208 V222 H868"/>
+    </g>
+
+    <!-- Clean solid foreground typography -->
+    <g text-anchor="middle">
+      <text x="450" y="72" class="kicker">MRIZALBASRI</text>
+      <text x="450" y="126" class="name">M. RIZAL BASRI</text>
+      <rect x="330" y="144" width="240" height="2" rx="1" fill="#8b5cf6" opacity="0.85"/>
+      <text x="450" y="174" class="role">Full-Stack Developer  ·  AI Engineer  ·  Security Enthusiast</text>
+    </g>
+  </g>
+
+  <!-- Crisp flat border -->
+  <rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="none" stroke="#2d2647"/>
+</svg>
