@@ -1,94 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-labelledby="title desc">
   <title id="title">M. Rizal Basri — Full-Stack Developer, AI Engineer, Security Enthusiast</title>
-  <desc id="desc">Animated dark violet ASCII-background profile banner for M. Rizal Basri matching a shadow-monarch violet and obsidian palette.</desc>
+  <desc id="desc">Animated dark numeric-background profile banner for M. Rizal Basri with subtle violet accents.</desc>
 
   <defs>
     <clipPath id="frame">
       <rect x="0.5" y="0.5" width="899" height="239" rx="14"/>
     </clipPath>
 
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07080f"/>
-      <stop offset="50%" stop-color="#0d0e1c"/>
-      <stop offset="100%" stop-color="#080912"/>
-    </linearGradient>
-
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#262940" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.65"/>
-    </linearGradient>
-
-    <radialGradient id="auraCenter" cx="50%" cy="48%" r="48%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.24"/>
-      <stop offset="45%" stop-color="#6d28d9" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#07080f" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="auraLeft" cx="12%" cy="22%" r="36%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#07080f" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="auraRight" cx="88%" cy="78%" r="36%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#07080f" stop-opacity="0"/>
-    </radialGradient>
-
     <radialGradient id="vignette" cx="50%" cy="50%" r="54%">
-      <stop offset="0%" stop-color="#080912" stop-opacity="0.93"/>
-      <stop offset="58%" stop-color="#080912" stop-opacity="0.72"/>
-      <stop offset="85%" stop-color="#080912" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#080912" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0b0c14" stop-opacity="0.94"/>
+      <stop offset="56%" stop-color="#0b0c14" stop-opacity="0.72"/>
+      <stop offset="86%" stop-color="#0b0c14" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0b0c14" stop-opacity="0"/>
     </radialGradient>
-
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f5f3ff"/>
-      <stop offset="52%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#d8b4fe"/>
-    </linearGradient>
-
-    <linearGradient id="dividerGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#8b5cf6" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#e9d5ff" stop-opacity="0.95"/>
-      <stop offset="75%" stop-color="#8b5cf6" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="slashGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e9d5ff" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#a855f7" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="violetGlow" x="-15%" y="-35%" width="130%" height="170%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feFlood flood-color="#a855f7" flood-opacity="0.35" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <style>
     .ascii {
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 12px;
-      letter-spacing: 1px;
+      letter-spacing: 1.4px;
     }
-    .muted { fill: #697296; opacity: 0.44; }
-    .dim { fill: #4d5473; opacity: 0.36; }
-    .violet { fill: #a855f7; opacity: 0.44; }
-    .lav { fill: #c084fc; opacity: 0.34; }
+    .muted { fill: #636a8a; opacity: 0.36; }
+    .dim { fill: #484e69; opacity: 0.30; }
+    .violet { fill: #9b6dff; opacity: 0.36; }
+    .lav { fill: #b794ff; opacity: 0.26; }
 
     @keyframes driftL {
       from { transform: translateX(0px); }
@@ -98,26 +34,6 @@
       from { transform: translateX(-900px); }
       to { transform: translateX(0px); }
     }
-    @keyframes breathe {
-      0%, 100% { opacity: 0.62; }
-      50% { opacity: 1; }
-    }
-    @keyframes slashPulse {
-      0%, 100% { opacity: 0.22; }
-      50% { opacity: 0.65; }
-    }
-    @keyframes sweep {
-      0% { transform: translateX(-220px); }
-      100% { transform: translateX(1120px); }
-    }
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    @keyframes dotPulse {
-      0%, 100% { opacity: 0.45; }
-      50% { opacity: 1; }
-    }
 
     .d-l-slow { animation: driftL 46s linear infinite; }
     .d-r-slow { animation: driftR 52s linear infinite; }
@@ -125,128 +41,94 @@
     .d-r-med  { animation: driftR 38s linear infinite; }
     .d-l-fast { animation: driftL 28s linear infinite; }
 
-    .aura-breathe { animation: breathe 6s ease-in-out infinite; }
-    .slash-anim   { animation: slashPulse 5s ease-in-out infinite; }
-    .sweep-bar    { animation: sweep 8.5s ease-in-out infinite; }
-    .cursor       { animation: blink 1.15s steps(1) infinite; }
-    .dot          { animation: dotPulse 2.4s ease-in-out infinite; }
-
     .kicker {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 11px;
-      letter-spacing: 2.6px;
-      fill: #c4b5fd;
+      letter-spacing: 3px;
+      fill: #a78bfa;
     }
     .name {
       font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 42px;
       font-weight: 800;
       letter-spacing: 3px;
-      fill: url(#titleGrad);
+      fill: #f5f5f9;
     }
     .role {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 14.5px;
-      fill: #e2e5f4;
+      fill: #d8dcef;
     }
     .stack {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 12.5px;
-      fill: #8d93b5;
+      fill: #8d93b3;
       letter-spacing: 0.4px;
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .d-l-slow, .d-r-slow, .d-l-med, .d-r-med, .d-l-fast,
-      .aura-breathe, .slash-anim, .sweep-bar, .cursor, .dot {
+      .d-l-slow, .d-r-slow, .d-l-med, .d-r-med, .d-l-fast {
         animation: none;
       }
     }
   </style>
 
   <g clip-path="url(#frame)">
-    <!-- Base obsidian canvas -->
-    <rect width="900" height="240" fill="url(#bg)"/>
+    <!-- Solid obsidian canvas -->
+    <rect width="900" height="240" fill="#0b0c14"/>
 
-    <!-- Ambient violet glows inspired by profile avatar -->
-    <rect width="900" height="240" fill="url(#auraLeft)" class="aura-breathe"/>
-    <rect width="900" height="240" fill="url(#auraRight)" class="aura-breathe"/>
-
-    <!-- Seamless animated ASCII background layers -->
+    <!-- Seamless animated numeric background -->
     <g class="ascii" xml:space="preserve">
-      <!-- Row 1 -->
       <g class="d-l-slow muted">
-        <text x="0" y="21" textLength="892" lengthAdjust="spacing">. : // ~~ .. -- ++ :: /\ \/ .. ~~ : // -- == .. +* :: .. // ~~ -- :: /\ \/ .. ++ == :: .. // ~~</text>
-        <text x="900" y="21" textLength="892" lengthAdjust="spacing">. : // ~~ .. -- ++ :: /\ \/ .. ~~ : // -- == .. +* :: .. // ~~ -- :: /\ \/ .. ++ == :: .. // ~~</text>
+        <text x="0" y="21" textLength="890" lengthAdjust="spacing">01 10 00 11 01 00 10 11 00 01 11 10 01 00 10 01 11 00 10 01 00 11 01 10 00 11 01 00 10 11 01</text>
+        <text x="900" y="21" textLength="890" lengthAdjust="spacing">01 10 00 11 01 00 10 11 00 01 11 10 01 00 10 01 11 00 10 01 00 11 01 10 00 11 01 00 10 11 01</text>
       </g>
-      <!-- Row 2 (violet accent stream) -->
       <g class="d-r-med violet">
-        <text x="0" y="42" textLength="892" lengthAdjust="spacing">::  0xA8  //  ~~  [SYS]  ..  ::  /\  --  [AI]  ::  ~~  0x5F  //  ..  [SEC]  ::  ~~  ++  ::  //</text>
-        <text x="900" y="42" textLength="892" lengthAdjust="spacing">::  0xA8  //  ~~  [SYS]  ..  ::  /\  --  [AI]  ::  ~~  0x5F  //  ..  [SEC]  ::  ~~  ++  ::  //</text>
+        <text x="0" y="42" textLength="890" lengthAdjust="spacing">4 0 8 1 9 2 7 0 5 3 1 6 8 4 0 2 9 7 1 5 3 8 0 6 4 2 9 1 7 5 3 8 0 4 6 2 9 1 7 3 5 0 8 4 2 6</text>
+        <text x="900" y="42" textLength="890" lengthAdjust="spacing">4 0 8 1 9 2 7 0 5 3 1 6 8 4 0 2 9 7 1 5 3 8 0 6 4 2 9 1 7 5 3 8 0 4 6 2 9 1 7 3 5 0 8 4 2 6</text>
       </g>
-      <!-- Row 3 -->
       <g class="d-l-med dim">
-        <text x="0" y="63" textLength="892" lengthAdjust="spacing">-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*</text>
-        <text x="900" y="63" textLength="892" lengthAdjust="spacing">-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*~*:._.-~-._.-~-._.:*</text>
+        <text x="0" y="63" textLength="890" lengthAdjust="spacing">1001 0110 1100 0011 1010 0101 0110 1001 0011 1100 0101 1010 1001 0110 1100 0011 1010 0101 01</text>
+        <text x="900" y="63" textLength="890" lengthAdjust="spacing">1001 0110 1100 0011 1010 0101 0110 1001 0011 1100 0101 1010 1001 0110 1100 0011 1010 0101 01</text>
       </g>
-      <!-- Row 4 -->
       <g class="d-r-slow muted">
-        <text x="0" y="84" textLength="892" lengthAdjust="spacing">01 .. :: \\ // == -- ++ .. 10 :: ~~ // \\ == -- ++ .. 01 :: ~~ \\ // == -- ++ .. 10 :: ~~ // \\</text>
-        <text x="900" y="84" textLength="892" lengthAdjust="spacing">01 .. :: \\ // == -- ++ .. 10 :: ~~ // \\ == -- ++ .. 01 :: ~~ \\ // == -- ++ .. 10 :: ~~ // \\</text>
+        <text x="0" y="84" textLength="890" lengthAdjust="spacing">72 19 04 83 56 20 91 47 38 65 10 29 84 73 05 62 18 49 30 75 26 81 94 03 57 42 68 15 90 34 71</text>
+        <text x="900" y="84" textLength="890" lengthAdjust="spacing">72 19 04 83 56 20 91 47 38 65 10 29 84 73 05 62 18 49 30 75 26 81 94 03 57 42 68 15 90 34 71</text>
       </g>
-      <!-- Row 5 (soft lavender accent) -->
       <g class="d-l-fast lav">
-        <text x="0" y="105" textLength="892" lengthAdjust="spacing">///  ..  ::  &lt;/&gt;  ~~  --  ::  **  ..  ///  ::  &lt;/&gt;  ~~  --  ::  **  ..  ///  ::  &lt;/&gt;  ~~  --</text>
-        <text x="900" y="105" textLength="892" lengthAdjust="spacing">///  ..  ::  &lt;/&gt;  ~~  --  ::  **  ..  ///  ::  &lt;/&gt;  ~~  --  ::  **  ..  ///  ::  &lt;/&gt;  ~~  --</text>
+        <text x="0" y="105" textLength="890" lengthAdjust="spacing">0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0</text>
+        <text x="900" y="105" textLength="890" lengthAdjust="spacing">0 1 0 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 1 0</text>
       </g>
-      <!-- Row 6 -->
       <g class="d-r-med dim">
-        <text x="0" y="126" textLength="892" lengthAdjust="spacing">+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::.</text>
-        <text x="900" y="126" textLength="892" lengthAdjust="spacing">+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::..+-+--+-+--+-+..::.</text>
+        <text x="0" y="126" textLength="890" lengthAdjust="spacing">314 159 265 358 979 323 846 264 338 327 950 288 419 716 939 937 510 582 097 494 459 230 781</text>
+        <text x="900" y="126" textLength="890" lengthAdjust="spacing">314 159 265 358 979 323 846 264 338 327 950 288 419 716 939 937 510 582 097 494 459 230 781</text>
       </g>
-      <!-- Row 7 -->
       <g class="d-l-slow muted">
-        <text x="0" y="147" textLength="892" lengthAdjust="spacing">:: /\ \/ == -- .. ++ :: // ~~ /\ \/ == -- .. ++ :: // ~~ /\ \/ == -- .. ++ :: // ~~ /\ \/ == --</text>
-        <text x="900" y="147" textLength="892" lengthAdjust="spacing">:: /\ \/ == -- .. ++ :: // ~~ /\ \/ == -- .. ++ :: // ~~ /\ \/ == -- .. ++ :: // ~~ /\ \/ == --</text>
+        <text x="0" y="147" textLength="890" lengthAdjust="spacing">11 00 10 01 11 01 00 10 01 11 00 10 11 01 00 10 01 11 10 00 01 10 11 00 01 10 00 11 01 10 00</text>
+        <text x="900" y="147" textLength="890" lengthAdjust="spacing">11 00 10 01 11 01 00 10 01 11 00 10 11 01 00 10 01 11 10 00 01 10 11 00 01 10 00 11 01 10 00</text>
       </g>
-      <!-- Row 8 (violet accent stream) -->
       <g class="d-r-slow violet">
-        <text x="0" y="168" textLength="892" lengthAdjust="spacing">~~  ::  //  \\  [NET]  ..  ++  --  ::  0x7C  ~~  //  \\  [DEV]  ..  ++  --  ::  0xE9  ~~  //</text>
-        <text x="900" y="168" textLength="892" lengthAdjust="spacing">~~  ::  //  \\  [NET]  ..  ++  --  ::  0x7C  ~~  //  \\  [DEV]  ..  ++  --  ::  0xE9  ~~  //</text>
+        <text x="0" y="168" textLength="890" lengthAdjust="spacing">80 24 61 93 07 52 14 86 39 70 45 18 63 29 04 71 58 92 36 10 84 47 25 69 03 81 54 27 96 13 40</text>
+        <text x="900" y="168" textLength="890" lengthAdjust="spacing">80 24 61 93 07 52 14 86 39 70 45 18 63 29 04 71 58 92 36 10 84 47 25 69 03 81 54 27 96 13 40</text>
       </g>
-      <!-- Row 9 -->
       <g class="d-l-med dim">
-        <text x="0" y="189" textLength="892" lengthAdjust="spacing">.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-</text>
-        <text x="900" y="189" textLength="892" lengthAdjust="spacing">.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-~-._.:*~*:._.-</text>
+        <text x="0" y="189" textLength="890" lengthAdjust="spacing">0101 1010 0011 1100 0110 1001 1100 0011 1010 0101 1001 0110 0011 1100 0101 1010 0110 1001 10</text>
+        <text x="900" y="189" textLength="890" lengthAdjust="spacing">0101 1010 0011 1100 0110 1001 1100 0011 1010 0101 1001 0110 0011 1100 0101 1010 0110 1001 10</text>
       </g>
-      <!-- Row 10 -->
       <g class="d-r-med muted">
-        <text x="0" y="210" textLength="892" lengthAdjust="spacing">-- ++ :: // == .. ~~ ** 01 -- ++ :: // == .. ~~ ** 10 -- ++ :: // == .. ~~ ** 01 -- ++ :: // ==</text>
-        <text x="900" y="210" textLength="892" lengthAdjust="spacing">-- ++ :: // == .. ~~ ** 01 -- ++ :: // == .. ~~ ** 10 -- ++ :: // == .. ~~ ** 01 -- ++ :: // ==</text>
+        <text x="0" y="210" textLength="890" lengthAdjust="spacing">9 5 2 0 7 4 1 8 6 3 0 9 5 2 7 4 1 8 3 6 0 2 9 5 4 7 1 8 6 3 9 0 5 2 4 7 1 8 3 6 9 0 2 5 7 4</text>
+        <text x="900" y="210" textLength="890" lengthAdjust="spacing">9 5 2 0 7 4 1 8 6 3 0 9 5 2 7 4 1 8 3 6 0 2 9 5 4 7 1 8 6 3 9 0 5 2 4 7 1 8 3 6 9 0 2 5 7 4</text>
       </g>
-      <!-- Row 11 -->
       <g class="d-l-fast lav">
-        <text x="0" y="231" textLength="892" lengthAdjust="spacing">.. :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\</text>
-        <text x="900" y="231" textLength="892" lengthAdjust="spacing">.. :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\ \/ .. == ++ -- :: // ~~ /\</text>
+        <text x="0" y="231" textLength="890" lengthAdjust="spacing">00 01 10 11 01 10 00 11 10 01 00 11 01 00 10 11 00 01 11 10 01 00 11 10 00 01 10 11 01 00 10</text>
+        <text x="900" y="231" textLength="890" lengthAdjust="spacing">00 01 10 11 01 10 00 11 10 01 00 11 01 00 10 11 00 01 11 10 01 00 11 10 00 01 10 11 01 00 10</text>
       </g>
     </g>
 
-    <!-- Diagonal shadow-aura energy trails echoing the profile avatar -->
-    <g class="slash-anim" stroke="url(#slashGrad)" stroke-linecap="round">
-      <line x1="28" y1="14" x2="156" y2="112" stroke-width="1.6"/>
-      <line x1="48" y1="6" x2="132" y2="70" stroke-width="0.9" opacity="0.6"/>
-      <line x1="744" y1="128" x2="872" y2="226" stroke-width="1.6"/>
-      <line x1="768" y1="170" x2="852" y2="234" stroke-width="0.9" opacity="0.6"/>
-    </g>
+    <!-- Soft center readability veil -->
+    <ellipse cx="450" cy="120" rx="355" ry="102" fill="url(#vignette)"/>
 
-    <!-- Subtle moving light sweep across the canvas -->
-    <rect class="sweep-bar" x="0" y="0" width="200" height="240" fill="url(#sweepGrad)"/>
-
-    <!-- Center readability veil + breathing violet core aura -->
-    <ellipse cx="450" cy="120" rx="355" ry="104" fill="url(#vignette)"/>
-    <ellipse cx="450" cy="116" rx="260" ry="78" fill="url(#auraCenter)" class="aura-breathe"/>
-
-    <!-- Minimal corner tech brackets -->
+    <!-- Minimal corner brackets -->
     <g stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.45" fill="none">
       <path d="M18 32 V18 H32"/>
       <path d="M882 32 V18 H868"/>
@@ -254,25 +136,16 @@
       <path d="M882 208 V222 H868"/>
     </g>
 
-    <!-- Clean modern foreground typography -->
+    <!-- Clean solid foreground typography -->
     <g text-anchor="middle">
-      <g transform="translate(450, 56)">
-        <circle cx="-102" cy="-4" r="3" fill="#a855f7" class="dot"/>
-        <text x="5" y="0" class="kicker">PROFILE // MRIZALBASRI</text>
-      </g>
-
-      <text x="450" y="114" class="name" filter="url(#violetGlow)">M. RIZAL BASRI</text>
-
-      <rect x="260" y="132" width="380" height="1.5" rx="0.75" fill="url(#dividerGrad)"/>
-
-      <text x="450" y="164" class="role">
-        Full-Stack Developer  ·  AI Engineer  ·  Security Enthusiast<tspan class="cursor" fill="#c084fc"> _</tspan>
-      </text>
-
+      <text x="450" y="56" class="kicker">MRIZALBASRI</text>
+      <text x="450" y="114" class="name">M. RIZAL BASRI</text>
+      <rect x="330" y="132" width="240" height="2" rx="1" fill="#8b5cf6" opacity="0.85"/>
+      <text x="450" y="164" class="role">Full-Stack Developer  ·  AI Engineer  ·  Security Enthusiast</text>
       <text x="450" y="194" class="stack">SvelteKit  ·  FastAPI  ·  Go  ·  PostgreSQL  ·  LangGraph</text>
     </g>
   </g>
 
-  <!-- Crisp outer border -->
-  <rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="none" stroke="url(#borderGrad)"/>
+  <!-- Crisp flat border -->
+  <rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="none" stroke="#2d2647"/>
 </svg>
