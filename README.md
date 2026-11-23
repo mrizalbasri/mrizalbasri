@@ -2,13 +2,26 @@
 
 # M. Rizal Basri
 
-[Open Source Contributions](#open-source-contributions) · [Tech Stack](#tech-stack--tools) · [Activity](#github-activity)
+[Featured Projects](#featured-projects) · [Open Source Contributions](#open-source-contributions) · [Tech Stack](#tech-stack--tools) · [Activity](#github-activity)
 
 </div>
 
 ---
 
 I enjoy building web applications and contributing to open source. I'm also learning more about cybersecurity and AI.
+
+[Portfolio](https://mrizalbasri.me) · [GitHub](https://github.com/mrizalbasri)
+
+### Featured Projects
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| [Avenra](https://github.com/mrizalbasri/Avenra) | Explainable academic planning and recovery workspace with a visual curriculum canvas. | SvelteKit, FastAPI, PostgreSQL, OR-Tools |
+| [Tera](https://github.com/mrizalbasri/Tera) | Reimbursement agent that reads receipts, checks policy, flags risk, and keeps an audit trail. | SvelteKit, FastAPI, LangGraph |
+| [Equora](https://github.com/mrizalbasri/Equora) | Indonesian education data platform for regional exploration, MCDA priority analysis, and allocation simulation. | SvelteKit, TypeScript, FastAPI |
+| [Hygeia](https://github.com/mrizalbasri/Hygeia) | Patient-consented health data exchange prototype with verifiable audit trails. | Go, SvelteKit, PostgreSQL |
+| [Prism](https://github.com/mrizalbasri/prism) | English placement and learning platform with AI-assisted writing and speaking feedback. | TypeScript |
+| [Betah](https://github.com/mrizalbasri/Betah) | HR decision support system for employee attrition prediction with SHAP explainability. | TypeScript, LangGraph RAG |
 
 ### Open Source Contributions
 
@@ -80,6 +93,8 @@ Technologies I use and explore across projects and coursework.
 <br/>
 
 ### GitHub Activity
+
+<sub>Refreshed once a day.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.svg">
