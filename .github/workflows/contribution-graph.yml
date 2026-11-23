@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate contribution graph
 
 on:
   schedule:
@@ -18,15 +18,15 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
+      - name: generate contribution graph
         uses: platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/pacman-contribution-graph.svg?palette=pacman
-            dist/pacman-contribution-graph-dark.svg?palette=pacman
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: push contribution graph to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

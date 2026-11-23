@@ -2,27 +2,15 @@
 
 # M. Rizal Basri
 
-[Featured Projects](#featured-projects) · [Open Source Contributions](#open-source-contributions) · [Tech Stack](#tech-stack--tools) · [Activity](#github-activity)
+**Informatics Student · Full-Stack Developer · AI Engineer · Security Enthusiast**
+
+[Open Source](#open-source-contributions) · [Tech Stack](#tech-stack--tools) · [Activity](#github-activity) · [Contribution Graph](#contribution-graph)
 
 </div>
 
 ---
 
-I enjoy building web applications and contributing to open source. I'm also learning more about cybersecurity and AI.
-
-[Portfolio](https://mrizalbasri.me) · [GitHub](https://github.com/mrizalbasri)
-
-### Featured Projects
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| [Avenra](https://github.com/mrizalbasri/Avenra) | Explainable academic planning and recovery workspace with a visual curriculum canvas. | SvelteKit, FastAPI, PostgreSQL, OR-Tools |
-| [Tera](https://github.com/mrizalbasri/Tera) | Reimbursement agent that reads receipts, checks policy, flags risk, and keeps an audit trail. | SvelteKit, FastAPI, LangGraph |
-| [Equora](https://github.com/mrizalbasri/Equora) | Indonesian education data platform for regional exploration, MCDA priority analysis, and allocation simulation. | SvelteKit, TypeScript, FastAPI |
-| [Hygeia](https://github.com/mrizalbasri/Hygeia) | Patient-consented health data exchange prototype with verifiable audit trails. | Go, SvelteKit, PostgreSQL |
-| [Prism](https://github.com/mrizalbasri/prism) | English placement and learning platform with AI-assisted writing and speaking feedback. | TypeScript |
-| [Betah](https://github.com/mrizalbasri/Betah) | HR decision support system for employee attrition prediction with SHAP explainability. | TypeScript, LangGraph RAG |
-
+I build web applications with SvelteKit, FastAPI, and Go, experiment with AI agents, and contribute to open source. I'm also learning more about cybersecurity.
 ### Open Source Contributions
 
 | Project | Description |
@@ -53,7 +41,9 @@ Technologies I use and explore across projects and coursework.
       <img alt="SvelteKit" src="https://img.shields.io/badge/SvelteKit-FF3E00?style=flat-square&logo=svelte&logoColor=white" />
       <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
       <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+      <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
       <img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+      <img alt="Astro" src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" />
       <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
     </td>
   </tr>
@@ -67,6 +57,7 @@ Technologies I use and explore across projects and coursework.
     </td>
     <td width="50%" valign="top">
       <h4>AI & Data Science</h4>
+      <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
       <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
       <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F79A3E?style=flat-square&logo=scikit-learn&logoColor=white" />
       <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -79,6 +70,7 @@ Technologies I use and explore across projects and coursework.
       <h4>Databases & Server</h4>
       <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
       <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
     </td>
     <td width="50%" valign="top">
@@ -105,7 +97,7 @@ Technologies I use and explore across projects and coursework.
 ### Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake.svg">
+  <img alt="contribution graph" src="https://raw.githubusercontent.com/mrizalbasri/mrizalbasri/output/snake.svg">
 </picture>
