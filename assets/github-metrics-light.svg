@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 246" width="760" height="246" role="img" aria-labelledby="title desc">
   <title id="title">GitHub activity and languages for mrizalbasri</title>
-  <desc id="desc">Activity over the past year: 3,006 contributions, 1,274 commits, 1,024 pull requests. Selected primary languages found in owned, non-fork repositories accessible to the metrics token, including public and private repositories: TypeScript, Python, JavaScript, PHP, Svelte, Go. Updated 2026-11-23 UTC.</desc>
+  <desc id="desc">Activity over the past year: 3,060 contributions, 1,301 commits, 1,051 pull requests. Selected primary languages found in owned, non-fork repositories accessible to the metrics token, including public and private repositories: TypeScript, Python, JavaScript, PHP, Svelte, Go. Updated 2026-11-23 UTC.</desc>
   <rect x="0.5" y="0.5" width="759" height="245" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
   <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#1f2328">
     <text x="28" y="35" font-size="17" font-weight="600">GitHub at a glance</text>
     <text x="28" y="58" font-size="12" fill="#59636e">Activity over the past year</text>
-    <text x="28" y="102" font-size="28" font-weight="600" fill="#0969da">3,006</text><text x="28" y="125" font-size="13" fill="#59636e">Contributions</text>
-    <text x="273" y="102" font-size="28" font-weight="600" fill="#0969da">1,274</text><text x="273" y="125" font-size="13" fill="#59636e">Commits</text>
-    <text x="518" y="102" font-size="28" font-weight="600" fill="#0969da">1,024</text><text x="518" y="125" font-size="13" fill="#59636e">Pull requests</text>
+    <text x="28" y="102" font-size="28" font-weight="600" fill="#0969da">3,060</text><text x="28" y="125" font-size="13" fill="#59636e">Contributions</text>
+    <text x="273" y="102" font-size="28" font-weight="600" fill="#0969da">1,301</text><text x="273" y="125" font-size="13" fill="#59636e">Commits</text>
+    <text x="518" y="102" font-size="28" font-weight="600" fill="#0969da">1,051</text><text x="518" y="125" font-size="13" fill="#59636e">Pull requests</text>
     <path d="M28 147H732" stroke="#d1d9e0"/>
     <text x="28" y="174" font-size="12" fill="#59636e">Selected languages · public and private repositories, excluding forks</text>
     <circle cx="33" cy="198" r="5" fill="#3178c6"/><text x="45" y="202" font-size="12">TypeScript</text>
